@@ -1,0 +1,235 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(253, 253, 194);
+    font-family: 'Poppins', sans-serif; 
+    text-align: center;
+    color: #5d3a3a; 
+}
+
+main {
+    padding: 20px;
+}
+
+/* Homepage Styles */
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #ff758f; 
+}
+
+p {
+    font-size: 1.2em;
+    font-family: cursive;
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    border: 10px solid #ffccd5; 
+}
+
+/* Contact Page Styles */
+.contact-page {
+    background-color: #e6ccb2; 
+    padding: 40px;
+}
+
+.contact-page h1 {
+    color: #392d22;
+}
+
+.contact-page ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-page li {
+    font-size: 1.1em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 8px;
+    color: #5a3e36;
+}
+
+/* Styling for the paragraph that contains contact info */
+.contact-page p {
+    background-color: #ffccd5;
+    border: 2px solid #a67c52;
+    border-radius: 10px;
+    padding: 15px;
+    max-width: 600px;
+    margin: 20px auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Projects Page*/
+
+.project-page {
+    margin: 50px auto;
+    padding: 40px;
+    max-width: 1200px;
+    background-color: #2b466b; 
+    border-radius: 12px;
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.2);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.project-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 50px;
+    padding: 20px;
+}
+
+.project-page {
+    width: 500px;
+    height: auto;
+    background-color: #ffdddd;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    border: 3px solid #fd86a0; 
+}
+
+
+.project-page img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 3px solid #5b92e5;
+}
+
+.project-page h3 {
+    margin-top: 15px;
+    font-size: 1.5rem;
+    color: #2a5c9e; 
+}
+
+.project-page p {
+    margin-top: 10px;
+    font-size: 1.1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #3a3a3a;
+}
+
+.project-page h1 {
+    text-align: center;
+    font-size: 3rem;
+    color: #2a5c9e;
+    margin-bottom: 25px;
+}
+
+.project-page p {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #221e3f;
+    margin-bottom: 35px;
+}
+/* About Page  */
+.about-page {
+    margin: 50px auto;
+    padding: 40px;
+    max-width: 1000px;
+    background-color: #ecfa6e;
+    border-radius: 12px;
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.2);
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    border: 3px solid #b84d4d; 
+}
+
+.about-page .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    align-items: center;
+    padding: 20px;
+    background-color: #f67878;
+    border-radius: 15px;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.15);
+    
+    
+}
+
+.about-page .container:hover {
+    transform: scale(1.02);
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.about-page .container p {
+    font-size: 1.2rem;
+    font-family:'Cormorant', serif;
+    color: #ffffff;
+    line-height: 1.8;
+    margin: 0;
+    padding: 20px;
+    border-left: 5px solid #ffffff; 
+}
+
+.about-page .container img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+    filter: grayscale(10%);
+    transition: filter 0.3s ease-in-out;
+}
+
+.about-page .container img:hover {
+    filter: grayscale(0%);
+}
+
+nav {
+    background-color: #f343b2;
+    padding: 15px 0;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #f0f0f0;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 6px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover,
+nav a.active {
+    background-color: #ff9d00;
+    color: #ffffff;
+}
+
+/* Responsive Navigation at 700px */
+@media (max-width: 700px) {
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav li {
+        display: block;
+        margin: 10px 0;
+    }
+}
